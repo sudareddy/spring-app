@@ -27,8 +27,7 @@ class ELKController {
 	@RequestMapping(value = "/elk")
 	public String helloWorld() {
 		String response = "Welcome to javainuse" + new Date();
-		LOG.log(Level.INFO,
-
+		
 		return response;
 	}
 
